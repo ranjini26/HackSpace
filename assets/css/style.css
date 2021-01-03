@@ -312,12 +312,41 @@ h1, h2, h3, h4, h5, h6 {
   #hero h1 {
     font-size: 32px;
     line-height: 36px;
+    position:relative;
+    top:110%;
   }
   #hero p {
     margin-top: 10px;
     font-size: 20px;
     line-height: 24px;
+    position:relative;
+    top:130%
   }
+  #hero p span {
+    color: #0563bb;
+    letter-spacing: 1px;
+  }
+  
+  #hero .social-links {
+    margin-top: 30px;
+    position:relative;
+    top:140%;
+  }
+  
+  #hero .social-links a {
+    font-size: 24px;
+    display: inline-block;
+    color: #45505b;
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.3s;
+   
+  }
+  
+  #hero .social-links a:hover {
+    color: #e6f3ff;
+  }
+  
 }
 
 /*--------------------------------------------------------------
