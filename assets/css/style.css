@@ -559,6 +559,50 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Themes
+--------------------------------------------------------------*/
+.themes .icon-box {
+  padding: 30px;
+  border-radius: 9px;
+  border-color: #3b4ef8;
+  background: rgb(255, 255, 255);
+  transition: ease-in-out 0.3s;
+}
+
+.themes .icon-box i {
+  float: left;
+  color: #3498db;
+  font-size: 40px;
+  line-height: 0;
+}
+
+.themes .icon-box h4 {
+  margin-left: 70px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.themes .icon-box h4 a {
+  color: #08031b;
+  transition: 0.3s;
+}
+
+.themes .icon-box p {
+  margin-left: 70px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.themes .icon-box:hover {
+  box-shadow: 20px 22px 22px rgba(14, 60, 211, 0.08);
+  
+}
+
+.themes .icon-box:hover h4 a {
+  color: #3498db;
+}
+/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
