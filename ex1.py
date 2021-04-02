@@ -1,1 +1,0 @@
-print("shaurya is  a smart boy")
